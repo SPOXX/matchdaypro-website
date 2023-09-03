@@ -1,0 +1,355 @@
+/*////////////////////////////////////////////////////// Responsive CSS Structure //////////////////////////////////////////////////////*/
+@media (min-width: 1200px) and (max-width: 1920px){
+}
+
+@media (min-width: 1400px) and (max-width: 1499px){
+}
+
+@media (min-width: 1400px) {
+.container { max-width: 1330px; }
+.footer .container { max-width: 1175px; }
+}
+
+@media (min-width: 1300px) and (max-width: 1399px){
+/* home page */
+.banner-section .banner-description { padding: 50px 0; }
+.banner-section .matchday-title img { width: 900px; }
+.banner-section .block-title { font-size: 32px; }
+/* .welcome-matchday-section { padding: 125px 0 75px; } */
+.welcome-matchday-section { padding: 125px 0 0; }
+/* .welcome-matchday-section .welcome-matchday-image { margin-top: 50px; } */
+.best-experience-section { padding: 125px 0 100px; }
+.best-experience-section .section-title { margin-bottom: 50px; }
+.holistic-football-section { padding: 150px 0 75px; }
+.holistic-football-section .holistic-custom-shape.shape1 { width: 400px; }
+.holistic-football-section .holistic-custom-shape.shape2 { width: 525px; }
+.holistic-video-block { height: 550px; }
+.holistic-football-section .holistic-football-buttons { margin-top: 50px; }
+.influential-ambassadors-section { padding: 175px 0 75px; }
+.ultimate-specifically-section { padding: 125px 0; }
+.unlock-football-section { padding: 125px 0 185px; }
+.unlock-football-section .unlock-football-image { margin-bottom: 75px; }
+.let-game-begin-section .section-title { margin-bottom: 70px; }
+.let-game-begin-section { padding: 85px 0; }
+.let-game-begin-section .let-game-begin-description { max-width: 1000px; margin-left: auto; margin-right: auto; }
+/* home page */
+}
+
+@media (min-width: 1200px) and (max-width: 1299px){
+/* home page */
+.banner-section .banner-description { padding: 50px 0; }
+.banner-section .matchday-title img { width: 900px; }
+.banner-section .block-title { font-size: 32px; }
+/* .welcome-matchday-section { padding: 125px 0 75px; } */
+.welcome-matchday-section { padding: 125px 0 0; }
+/* .welcome-matchday-section .welcome-matchday-image { margin-top: 50px; } */
+.best-experience-section { padding: 125px 0 100px; }
+.best-experience-section .section-title { margin-bottom: 50px; }
+.holistic-football-section { padding: 150px 0 75px; }
+.holistic-football-section .holistic-custom-shape.shape1 { width: 400px; }
+.holistic-football-section .holistic-custom-shape.shape2 { width: 525px; }
+.holistic-video-block { height: 550px; }
+.holistic-football-section .holistic-football-buttons { margin-top: 50px; }
+.influential-ambassadors-section { padding: 175px 0 75px; }
+.ultimate-specifically-section { padding: 125px 0; }
+.unlock-football-section { padding: 125px 0 185px; }
+.unlock-football-section .unlock-football-image { margin-bottom: 75px; }
+.let-game-begin-section .section-title { margin-bottom: 70px; }
+.let-game-begin-section { padding: 85px 0; }
+.let-game-begin-section .let-game-begin-description { max-width: 1000px; margin-left: auto; margin-right: auto; }
+/* home page */
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+.section-title { font-size: 42px; line-height: 48px; }
+
+/* header */
+.navbar { padding: 25px 0; }
+.navbar-nav .nav-item { margin: 0 10px; }
+/* header */
+
+/* home page */
+.banner-section .banner-main-image:before { height: 200px; }
+.banner-section .banner-main-image:after { height: 250px; }
+.banner-section .banner-description { padding: 35px 0; }
+.banner-section .matchday-title img { width: 800px; }
+.banner-section .block-title { font-size: 28px; }
+/* .welcome-matchday-section { padding: 100px 0 50px; } */
+.welcome-matchday-section { padding: 100px 0 0; }
+/* .welcome-matchday-section .welcome-matchday-image { margin-top: 50px; } */
+.best-experience-section { padding: 100px 0 75px; }
+.best-experience-section .section-title { margin-bottom: 50px; }
+.best-experience-block { padding: 30px; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; }
+.best-experience-block .experience-image { margin-top: 30px; }
+.holistic-football-section { padding: 75px 0; }
+.holistic-football-section .holistic-custom-shape.shape1 { width: 350px; }
+.holistic-football-section .holistic-custom-shape.shape2 { width: 450px; }
+.holistic-football-section .section-title { margin-bottom: 50px; }
+.holistic-video-block { height: 450px; }
+.holistic-video-block .video-play-icon { width: 60px; height: 60px; }
+.holistic-football-section .holistic-football-buttons { margin-top: 50px; }
+.influential-ambassadors-section { padding: 125px 0 50px; }
+.ultimate-specifically-section { padding: 75px 0; }
+.ultimate-specifically-section .ultimate-specifically-image { max-width: 800px; }
+.ultimate-specifically-section .ultimate-specifically-image:before { width: 150px; height: 115px; }
+.ultimate-specifically-section .ultimate-specifically-image:after { width: 100px; height: 125px; }
+.ultimate-specifically-section .ultimate-specifically-buttons { margin-top: 35px; }
+.partnership-section { padding: 70px 0; }
+.unlock-football-section { padding: 100px 0 150px; }
+.unlock-football-section .unlock-football-image { margin-bottom: 50px; }
+.let-game-begin-section .section-title { margin-bottom: 70px; }
+.let-game-begin-section { padding: 70px 0; }
+.let-game-begin-section .let-game-begin-description { max-width: 800px; margin-left: auto; margin-right: auto; }
+/* home page */
+
+/* footer */
+/* .f-logo-detail-block { text-align: center; } */
+.f-logo { margin-bottom: 20px; }
+/* .f-logo-detail-block .f-detail { max-width: 100%; } */
+.footer .f-bottom { padding: 20px 0; }
+.footer .f-top .f-right > .row { margin: 0 -20px; }
+.footer .f-top .f-right > .row > * { padding: 0 20px; }
+/* footer */
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+.section-title { font-size: 35px; line-height: 42px; }
+
+/* header */
+.navbar-nav .nav-item { margin: 0 10px; }
+/* header */
+
+/* home page */
+.banner-section .banner-main-image:before { height: 175px; }
+.banner-section .banner-main-image:after { height: 225px; }
+.banner-section .banner-description { padding: 35px 0; }
+.banner-section .matchday-title { margin-bottom: 20px; }
+.banner-section .matchday-title img { width: 650px; }
+.banner-section .block-title { font-size: 25px; }
+/* .welcome-matchday-section { padding: 75px 0 50px; } */
+.welcome-matchday-section { padding: 75px 0 0; }
+/* .welcome-matchday-section .welcome-matchday-image { margin-top: 35px; } */
+.best-experience-section { padding: 75px 0 50px; }
+.best-experience-section .section-title { margin-bottom: 35px; }
+.best-experience-block { padding: 20px; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -ms-border-radius: 15px; -o-border-radius: 15px; }
+.best-experience-block .experience-image { margin-top: 20px; }
+.best-experience-block .experience-icon { width: 48px; height: 48px; margin-bottom: 15px; }
+.holistic-football-section { padding: 50px 0; }
+.holistic-football-section .holistic-custom-shape.shape1 { width: 350px; }
+.holistic-football-section .holistic-custom-shape.shape2 { width: 450px; }
+.holistic-football-section .section-title { margin-bottom: 35px; }
+.holistic-video-block { height: 400px; }
+.holistic-video-block .video-play-icon { width: 60px; height: 60px; }
+.holistic-football-section .holistic-football-buttons { margin-top: 35px; }
+.influential-ambassadors-section { padding: 75px 0 50px; }
+.influential-ambassadors-section .influential-ambassadors-content { margin-bottom: 35px; }
+.influential-ambassadors-item { width: 50%; }
+.ultimate-specifically-section { padding: 50px 0; }
+.ultimate-specifically-section .ultimate-specifically-image { max-width: 650px; }
+.ultimate-specifically-section .ultimate-specifically-image:before { width: 115px; height: 85px; }
+.ultimate-specifically-section .ultimate-specifically-image:after { width: 75px; height: 85px; }
+.ultimate-specifically-section .ultimate-specifically-buttons { margin-top: 35px; }
+.partnership-section { padding: 50px 0; }
+.partnership-section .section-title { margin-bottom: 35px; }
+.partnership-section .partnership-logos-list { margin-bottom: 20px; }
+.unlock-football-section { padding: 75px 0 100px; }
+.unlock-football-section:before { width: 225px; height: 150px; }
+.unlock-football-section:after { width: 275px; height: 150px; }
+.unlock-football-section .unlock-football-image { margin-bottom: 50px; }
+.let-game-begin-section .section-title { margin-bottom: 70px; }
+.let-game-begin-section { padding: 50px 0; }
+.let-game-begin-section .let-game-begin-description { max-width: 600px; margin-left: auto; margin-right: auto; }
+.let-game-begin-list .let-game-begin-block:nth-child(1) .let-game-begin-image { width: 175px; }
+.let-game-begin-list .let-game-begin-block:nth-child(2) .let-game-begin-image { width: 225px; }
+.let-game-begin-list .let-game-begin-block:nth-child(3) .let-game-begin-image { width: 125px; }
+/* home page */
+
+/* footer */
+.footer .f-top .f-content { flex-direction: column; }
+.f-logo-detail-block { text-align: center; }
+.f-logo { margin-bottom: 20px; }
+.f-logo-detail-block .f-detail { max-width: 100%; }
+.footer .f-top .f-right > .row { margin: 0 -15px; }
+.footer .f-top .f-right > .row > * { padding: 0 15px; }
+.footer .f-bottom { padding: 20px 0; }
+/* footer */
+}
+
+@media (min-width: 768px) {
+}
+
+@media (max-width: 767px) {
+.section-title { font-size: 30px; line-height: 35px; margin-bottom: 25px; }
+.block-title { font-size: 25px; line-height: 33px; }
+.small-block-title { font-size: 22px; line-height: 30px; }
+p { margin-bottom: 15px; }
+.common-app-buttons a { margin: 0 7px; width: 135px; }
+
+/* header */
+.header .container { max-width: 100%; }
+
+html.nav-menu-open .header { background: #11111f; }
+.navbar { padding: 30px 10px; }
+.navbar-nav .nav-item { margin: 0 !important; padding: 0; }
+.navbar .navbar-collapse { display: flex; flex-direction: column; align-items: flex-start; justify-content: space-between; position: fixed; right: -100%; bottom: 0; height: calc(100% - 99px); z-index: 999; width: 100%; overflow: auto; background: #11111f; padding: 10px 25px 55px; transition: 0.4s; -webkit-transition: 0.4s; -moz-transition: 0.4s; -ms-transition: 0.4s; -o-transition: 0.4s; }
+.navbar .navbar-collapse.show { right:  0; }
+.navbar-nav .nav-item .nav-link { padding: 12px 0 !important; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; }
+.header .h-download-app-button { margin: 15px 0 0; width: 100%; }
+.header .h-download-app-button .btn { width: 100%; }
+/* header */
+
+/* home page */
+.banner-section .banner-main-image:before { height: 125px; }
+.banner-section .banner-main-image:after { height: 255px; display: none; }
+.banner-section .banner-main-image img { height: auto; }
+.banner-section .banner-description { padding: 20px 0 40px; position: relative; left: auto; right: auto; bottom: auto; z-index: 9; background: #121220; }
+.banner-section .banner-description:before { position: absolute; content: ""; left: 0; right: 0; bottom: 100%; z-index: -1; height: 100px; width: 100%;  background: linear-gradient(0deg, #11111f 41.94%, rgba(17, 17, 31, 0.00) 100%); }
+.banner-section .matchday-title { margin-bottom: 20px; }
+.banner-section .matchday-title img { width: 400px; }
+.banner-section .block-title { font-size: 22px; line-height: 30px; }
+/* .welcome-matchday-section { padding: 50px 0; } */
+.welcome-matchday-section { padding: 50px 0 0; }
+/* .welcome-matchday-section .welcome-matchday-image { margin-top: 30px; } */
+.best-experience-section { padding: 55px 0; }
+.best-experience-section .section-title { margin-bottom: 25px; }
+.best-experience-block { padding: 25px 15px; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -ms-border-radius: 15px; -o-border-radius: 15px; }
+.best-experience-block .experience-image { margin-top: 25px; }
+.best-experience-block .experience-icon { width: 32px; height: 32px; padding: 5px; margin-bottom: 15px; }
+.best-experience-block .experience-icon img { width: 18px; }
+.holistic-football-section { padding: 75px 0 95px; }
+.holistic-football-section .holistic-custom-shape.shape1 { width: 130px; }
+.holistic-football-section .holistic-custom-shape.shape2 { width: 274px; bottom: 20px; }
+.holistic-football-section .section-title { margin-bottom: 25px; }
+.holistic-video-block { height: 300px; }
+.holistic-video-block .video-play-icon { width: 48px; height: 48px; font-size: 22px; line-height: 22px; }
+.holistic-football-section .holistic-football-buttons { margin-top: 25px; }
+.influential-ambassadors-section { padding: 55px 0; }
+.influential-ambassadors-section:before { width: 82px; height: 90px; top: 25px; left: -35px; }
+.influential-ambassadors-slider:before { width: 68px; height: 74px; right: -10px; bottom: 0; }
+.influential-ambassadors-section .influential-ambassadors-content { margin-bottom: 20px; }
+.ultimate-specifically-section { padding: 55px 0; }
+.ultimate-specifically-section .ultimate-specifically-image { max-width: 450px; }
+.ultimate-specifically-section .ultimate-specifically-image:before { width: 115px; height: 85px; }
+.ultimate-specifically-section .ultimate-specifically-image:after { width: 75px; height: 85px; }
+.ultimate-specifically-section .ultimate-specifically-buttons { margin-top: 35px; }
+.partnership-section { padding: 35px 0; }
+.partnership-section .section-title { margin-bottom: 35px; }
+.partnership-section .partnership-logos-list { margin: 0 -15px 20px; }
+.partnership-section .partnership-logos-list > { padding: 0 15px; }
+.unlock-football-section { padding: 50px 0; }
+.unlock-football-section:before { width: 95px; height: 42px; }
+.unlock-football-section:after { width: 60px; height: 68px; }
+.unlock-football-section .unlock-football-image { margin-bottom: 35px; }
+.let-game-begin-section .section-title { margin-bottom: 50px; }
+.let-game-begin-section:before { right: auto; left: -50px; bottom: -130px; width: 184px; height: 206px; }
+.let-game-begin-section { padding: 35px 0; }
+.let-game-begin-section .let-game-begin-description { max-width: 450px; margin-left: auto; margin-right: auto; }
+.let-game-begin-list .let-game-begin-block:nth-child(1) .let-game-begin-image { width: 125px; }
+.let-game-begin-list .let-game-begin-block:nth-child(2) .let-game-begin-image { width: 175px; }
+.let-game-begin-list .let-game-begin-block:nth-child(3) .let-game-begin-image { width: 75px; }
+/* home page */
+
+/* footer */
+.footer:before { display: none; }
+.footer .f-top { padding: 30px 0 10px; }
+.footer .f-top .f-content { flex-direction: column; }
+.f-logo { margin-bottom: 20px; }
+.f-logo img { width: 32px; }
+.f-logo-detail-block .f-detail { max-width: 100%; }
+.footer .f-top .f-right > .row { margin: 0 -15px; }
+.footer .f-top .f-right > .row > * { padding: 0 15px; }
+.f-block .f-title { margin-bottom: 15px; }
+.f-block .f-detail { font-size: 14px; }
+.footer .f-bottom { padding: 15px 0; }
+.footer .f-bottom ul li { font-size: 12px; }
+/* footer */
+.best-experience-slider .slick-track
+{
+    display: flex !important;
+}
+
+.best-experience-slider .slick-slide
+{
+    height: inherit !important;
+}
+
+}
+
+/*---------- Small Mobile , IPhone Start ----------*/
+
+/*=== Screen Size = 240, 320, 360, 480, 568 ===*/
+@media (min-width: 576px) and (max-width: 767px){
+}
+
+@media (min-width: 240px) and (max-width: 575px){
+/* header */
+.navbar .navbar-brand { width: 24px; }
+.navbar .navbar-collapse { height: calc(100% - 92px); }
+/* header */
+
+/* home page */
+.banner-section .matchday-title { margin-bottom: 10px; }
+.banner-section .block-title { font-size: 15px; line-height: 24px; letter-spacing: 0.773px; }
+.welcome-matchday-section .section-title { max-width: 260px; width: 100%; margin-left: auto; margin-right: auto; }
+/* .welcome-matchday-section { padding: 35px 0; } */
+.welcome-matchday-section { padding: 35px 0 0; }
+/* .welcome-matchday-section .welcome-matchday-image { margin-top: 15px; } */
+.best-experience-section .section-title { font-size: 24px; line-height: 33px; max-width: 260px; width: 100%; margin-left: auto; margin-right: auto; }
+.best-experience-block .block-title { font-size: 18px; line-height: 25px; }
+.best-experience-block .experience-detail .detail { font-size: 14px; line-height: 20px; }
+.holistic-football-section .section-title { font-size: 24px; line-height: 33px; max-width: 260px; width: 100%; margin-left: auto; margin-right: auto; }
+.holistic-video-block { height: 200px; }
+.influential-ambassadors-section .section-title { font-size: 24px; line-height: 33px; }
+.influential-ambassadors-block { margin-bottom: 25px; height: calc(100% - 45px); }
+.ultimate-specifically-section .section-title { font-size: 24px; line-height: 33px; max-width: 290px; width: 100%; margin-left: auto; margin-right: auto; }
+.ultimate-specifically-section .ultimate-specifically-image { max-width: 265px; }
+.ultimate-specifically-section .ultimate-specifically-image:before { width: 56px; height: 40px; margin-left: -15px; top: 0; }
+.ultimate-specifically-section .ultimate-specifically-image:after { width: 40px; height: 48px; margin-right: -15px; bottom: 0; }
+.ultimate-specifically-section .ultimate-specifically-buttons { margin-top: 35px; }
+.partnership-section { padding: 80px 0; }
+.partnership-section .section-title { margin-bottom: 50px; }
+.partnership-section .partnership-logos-list { margin-bottom: 30px; }
+.unlock-football-section { padding: 80px 0; }
+.unlock-football-section .section-title { font-size: 24px; line-height: 33px; }
+.unlock-football-section:before { height: 45px; }
+.unlock-football-section:after { height: 40px; }
+.let-game-begin-section { padding: 80px 0; }
+.let-game-begin-section .let-game-begin-description { max-width: 275px; margin-left: auto; margin-right: auto; }
+.let-game-begin-list .let-game-begin-block:nth-child(1) .let-game-begin-image { width: 65px; }
+.let-game-begin-list .let-game-begin-block:nth-child(2) .let-game-begin-image { width: 90px; }
+.let-game-begin-list .let-game-begin-block:nth-child(3) .let-game-begin-image { width: 45px; }
+/* home page */
+
+/* footer */
+.f-logo-detail-block .f-detail { max-width: 275px; }
+/* footer */
+}
+
+@media (max-width: 374px){
+/* header */
+.navbar { padding: 30px 0; }
+.navbar .navbar-collapse { padding: 35px 15px; }
+/* header */
+
+/* home page */
+.banner-section .banner-description { padding: 25px 0; }
+.ultimate-specifically-section { padding: 35px 0; }
+.ultimate-specifically-section .ultimate-specifically-image { margin-bottom: 25px; }
+.best-experience-section { padding: 35px 0; }
+.holistic-football-section { padding: 50px 0 35px; }
+.partnership-section { padding: 35px 0; }
+.partnership-section .section-title { margin-bottom: 35px; }
+.partnership-section .partnership-logos-list { margin-bottom: 20px; }
+.let-game-begin-section { padding: 35px 0; }
+.unlock-football-section { padding: 50px 0; }
+/* home page */
+
+/* footer */
+.f-logo-detail-block { text-align: center; }
+.f-block .f-title { text-align: center; }
+.f-block .f-detail ul li { text-align: center; justify-content: center; }
+.f-block .f-detail .common-social-icons-list ul { justify-content: center; }
+.footer .f-top .f-right > .row > * { flex: 0 0 100%; max-width: 100%; }
+/* footer */
+}
+/*---------- Large Desktop , Large Screen End ----------*/

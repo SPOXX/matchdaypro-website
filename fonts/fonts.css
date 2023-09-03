@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'fabrands400';
+  src: url('fabrands400.eot');
+  src: url('fabrands400.eot') format('embedded-opentype'),
+    url('fabrands400.woff2') format('woff2'),
+    url('fabrands400.woff') format('woff'),
+    url('fabrands400.ttf') format('truetype'),
+    url('fabrands400.svg#fabrands400') format('svg');
+}
+
+@font-face {
+  font-family: 'faregular400';
+  src: url('faregular400.eot');
+  src: url('faregular400.eot') format('embedded-opentype'),
+    url('faregular400.woff2') format('woff2'),
+    url('faregular400.woff') format('woff'),
+    url('faregular400.ttf') format('truetype'),
+    url('faregular400.svg#faregular400') format('svg');
+}
+
+@font-face {
+  font-family: 'fasolid900';
+  src: url('fasolid900.eot');
+  src: url('fasolid900.eot') format('embedded-opentype'),
+    url('fasolid900.woff2') format('woff2'),
+    url('fasolid900.woff') format('woff'),
+    url('fasolid900.ttf') format('truetype'),
+    url('fasolid900.svg#fasolid900') format('svg');
+}
+
+@font-face {
+  font-family: 'fav4compatibility';
+  src: url('fav4compatibility.eot');
+  src: url('fav4compatibility.eot') format('embedded-opentype'),
+    url('fav4compatibility.woff2') format('woff2'),
+    url('fav4compatibility.woff') format('woff'),
+    url('fav4compatibility.ttf') format('truetype'),
+    url('fav4compatibility.svg#fav4compatibility') format('svg');
+}
+
+@font-face {
+  font-family: 'FontAwesome6BrandsRegular400';
+  src: url('FontAwesome6BrandsRegular400.eot');
+  src: url('FontAwesome6BrandsRegular400.eot') format('embedded-opentype'),
+       url('FontAwesome6BrandsRegular400.woff2') format('woff2'),
+       url('FontAwesome6BrandsRegular400.woff') format('woff'),
+       url('FontAwesome6BrandsRegular400.ttf') format('truetype'),
+       url('FontAwesome6BrandsRegular400.svg#FontAwesome6BrandsRegular400') format('svg');
+}
+
+@font-face {
+  font-family: 'FontAwesome6FreeRegular400';
+  src: url('FontAwesome6FreeRegular400.eot');
+  src: url('FontAwesome6FreeRegular400.eot') format('embedded-opentype'),
+       url('FontAwesome6FreeRegular400.woff2') format('woff2'),
+       url('FontAwesome6FreeRegular400.woff') format('woff'),
+       url('FontAwesome6FreeRegular400.ttf') format('truetype'),
+       url('FontAwesome6FreeRegular400.svg#FontAwesome6FreeRegular400') format('svg');
+}
+
+@font-face {
+  font-family: 'FontAwesome6FreeSolid900';
+  src: url('FontAwesome6FreeSolid900.eot');
+  src: url('FontAwesome6FreeSolid900.eot') format('embedded-opentype'),
+       url('FontAwesome6FreeSolid900.woff2') format('woff2'),
+       url('FontAwesome6FreeSolid900.woff') format('woff'),
+       url('FontAwesome6FreeSolid900.ttf') format('truetype'),
+       url('FontAwesome6FreeSolid900.svg#FontAwesome6FreeSolid900') format('svg');
+}
+
+@font-face {
+  font-family: 'NunitoRegular';
+  src: url('NunitoRegular.eot');
+  src: url('NunitoRegular.eot') format('embedded-opentype'),
+       url('NunitoRegular.woff2') format('woff2'),
+       url('NunitoRegular.woff') format('woff'),
+       url('NunitoRegular.ttf') format('truetype'),
+       url('NunitoRegular.svg#NunitoRegular') format('svg');
+}
+
+@font-face {
+  font-family: 'NunitoMedium';
+  src: url('NunitoMedium.eot');
+  src: url('NunitoMedium.eot') format('embedded-opentype'),
+       url('NunitoMedium.woff2') format('woff2'),
+       url('NunitoMedium.woff') format('woff'),
+       url('NunitoMedium.ttf') format('truetype'),
+       url('NunitoMedium.svg#NunitoMedium') format('svg');
+}
+
+@font-face {
+  font-family: 'NunitoSemiBold';
+  src: url('NunitoSemiBold.eot');
+  src: url('NunitoSemiBold.eot') format('embedded-opentype'),
+       url('NunitoSemiBold.woff2') format('woff2'),
+       url('NunitoSemiBold.woff') format('woff'),
+       url('NunitoSemiBold.ttf') format('truetype'),
+       url('NunitoSemiBold.svg#NunitoSemiBold') format('svg');
+}
+
+@font-face {
+  font-family: 'BiennaleMedium';
+  src: url('BiennaleMedium.eot');
+  src: url('BiennaleMedium.eot') format('embedded-opentype'),
+       url('BiennaleMedium.woff2') format('woff2'),
+       url('BiennaleMedium.woff') format('woff'),
+       url('BiennaleMedium.ttf') format('truetype'),
+       url('BiennaleMedium.svg#BiennaleMedium') format('svg');
+}
+
+@font-face {
+  font-family: 'BiennaleSemiBold';
+  src: url('BiennaleSemiBold.eot');
+  src: url('BiennaleSemiBold.eot') format('embedded-opentype'),
+       url('BiennaleSemiBold.woff2') format('woff2'),
+       url('BiennaleSemiBold.woff') format('woff'),
+       url('BiennaleSemiBold.ttf') format('truetype'),
+       url('BiennaleSemiBold.svg#BiennaleSemiBold') format('svg');
+}
+
+@font-face {
+  font-family: 'BiennaleBold';
+  src: url('BiennaleBold.eot');
+  src: url('BiennaleBold.eot') format('embedded-opentype'),
+       url('BiennaleBold.woff2') format('woff2'),
+       url('BiennaleBold.woff') format('woff'),
+       url('BiennaleBold.ttf') format('truetype'),
+       url('BiennaleBold.svg#BiennaleBold') format('svg');
+}
+
+@font-face {
+  font-family: 'BiennaleBlack';
+  src: url('BiennaleBlack.eot');
+  src: url('BiennaleBlack.eot') format('embedded-opentype'),
+       url('BiennaleBlack.woff2') format('woff2'),
+       url('BiennaleBlack.woff') format('woff'),
+       url('BiennaleBlack.ttf') format('truetype'),
+       url('BiennaleBlack.svg#BiennaleBlack') format('svg');
+}
