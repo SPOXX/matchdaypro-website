@@ -40,6 +40,11 @@ p {
 	margin-bottom: 25px;
 }
 
+strong {
+	font-family: 'BiennaleBold';
+	font-size: inherit;
+}
+
 ol,
 ul {
 	margin-bottom: 20px;
@@ -2680,6 +2685,7 @@ h6 {
 .typography-section h4 {
 	margin-top: 48px;
 }
+
 /* typography */
 
 .mobile-back {
