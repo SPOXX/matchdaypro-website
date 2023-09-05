@@ -1,9 +1,9 @@
 // JavaScript Document
-$(document).ready(function() {
+$(document).ready(function () {
 	/* navigation */
-	document.addEventListener('click',function(e){
+	document.addEventListener('click', function (e) {
 		/* Hamburger menu */
-		if(e.target.classList.contains('hamburger-toggle')){
+		if (e.target.classList.contains('hamburger-toggle')) {
 			e.target.children[0].classList.toggle('active');
 		}
 	});
@@ -29,10 +29,10 @@ $(document).ready(function() {
 			dots: $dots,
 			arrows: $arrows,
 			responsive: [
-			{
-				breakpoint: $breakpoint,
-				settings: "unslick"
-			}
+				{
+					breakpoint: $breakpoint,
+					settings: "unslick"
+				}
 			]
 		};
 
@@ -59,10 +59,10 @@ $(document).ready(function() {
 			dots: $dots,
 			arrows: $arrows,
 			responsive: [
-			{
-				breakpoint: $breakpoint,
-				settings: "unslick"
-			}
+				{
+					breakpoint: $breakpoint,
+					settings: "unslick"
+				}
 			]
 		};
 
@@ -80,10 +80,10 @@ $(document).ready(function() {
 	/* influential-ambassadors-carousel */
 
 	/* influential-ambassadors-block read-more-less */
-	$(".influential-ambassadors-block .influential-readmore-link a").click(function(e){
+	$(".influential-ambassadors-block .influential-readmore-link a").click(function (e) {
 		$(this).parent().parent().toggleClass("view-full-detail");
-		
-		if($(this).parent().parent().hasClass("view-full-detail")){
+
+		if ($(this).parent().parent().hasClass("view-full-detail")) {
 			$(this).text("Read less");
 		} else {
 			$(this).text("Read more");
@@ -93,13 +93,13 @@ $(document).ready(function() {
 	/* influential-ambassadors-block read-more-less */
 
 	/* holistic-video-block play pause */
-	$(".holistic-video-block .video-play-icon").click(function(e){
+	$(".holistic-video-block .video-play-icon").click(function (e) {
 		$(this).parent().toggleClass("video-playing");
-		if($(this).parent().hasClass("video-playing")){
+		if ($(this).parent().hasClass("video-playing")) {
 			$(this).parent().find("img").addClass("d-none");
 			$(this).parent().find("iframe").removeClass("d-none");
 			var video_src = $(this).attr("data-video-src");
-			$(this).parent().find("iframe").attr("src", video_src +"&autoplay=1");
+			$(this).parent().find("iframe").attr("src", video_src + "&autoplay=1");
 
 			// $(this).parent().find("video").removeClass("d-none");
 			// $(this).parent().find("video")[0].play();
@@ -118,6 +118,14 @@ $(document).ready(function() {
 	var myLazyLoad = new LazyLoad();
 	myLazyLoad.update();
 	/* lazyload */
+
+	var list = document.getElementsByClassName("typography-block");
+	var items = list.getElementsByTagName("li");
+
+	for (var i = 0; i < items.length; i++) {
+		var itemNumber = i + 1;
+		items[i].textContent = itemNumber.toString().padStart(2, '0') + ". " + items[i].textContent;
+	}
 
 	/* OFI Browser */
 	objectFitImages();

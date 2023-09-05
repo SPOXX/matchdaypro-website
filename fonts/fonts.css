@@ -137,3 +137,24 @@
        url('BiennaleBlack.ttf') format('truetype'),
        url('BiennaleBlack.svg#BiennaleBlack') format('svg');
 }
+
+@font-face {
+  font-family: 'NunitoBoldItalic';
+  src: url('NunitoBoldItalic.eot');
+  src: url('NunitoBoldItalic.eot') format('embedded-opentype'),
+       url('NunitoBoldItalic.woff2') format('woff2'),
+       url('NunitoBoldItalic.woff') format('woff'),
+       url('NunitoBoldItalic.ttf') format('truetype'),
+       url('NunitoBoldItalic.svg#NunitoBoldItalic') format('svg');
+}
+
+@font-face {
+  font-family: 'NunitoBold';
+  src: url('NunitoBold.eot');
+  src: url('NunitoBold.eot') format('embedded-opentype'),
+       url('NunitoBold.woff2') format('woff2'),
+       url('NunitoBold.woff') format('woff'),
+       url('NunitoBold.ttf') format('truetype'),
+       url('NunitoBold.svg#NunitoBold') format('svg');
+}
+
