@@ -656,11 +656,23 @@ ul li {
 
 .common-app-buttons a:first-child {
 	margin-left: 0;
+	margin-right: 30px;
 }
 
 .common-app-buttons a:last-child {
 	margin-right: 0;
 }
+
+.common-app-buttons .img-app-store {
+	width: 177px;
+	height: 59px;
+}
+
+.common-app-buttons .img-google-play {
+	width: 198px;
+	height: 59px;
+}
+
 /* common-app-buttons */
 
 /* typography section */
@@ -731,7 +743,8 @@ h6 {
 /*========== Header Start ==========*/
 /*==================================================================*/
 .header {
-	position: absolute;
+	position: fixed;
+	height: 107px;
 	left: 0;
 	right: 0;
 	top: 0;
@@ -741,6 +754,14 @@ h6 {
 	-moz-transition: 0.4s;
 	-ms-transition: 0.4s;
 	-o-transition: 0.4s;
+}
+
+.header.with-background-color {
+	background-color: #11111F;
+}
+
+.header.scrolled {
+	background-color: #11111F;
 }
 
 .header .h-download-app-button {
@@ -2464,11 +2485,6 @@ h6 {
 /* partner foundation */
 
 /* typography */
-
-.header-typography {
-	background-color: #11111F;
-}
-
 .typography-section {
 	padding: 267px 0 124px 0;
 	max-width: 810px;

@@ -37,6 +37,11 @@
             )
             document.querySelector('head').appendChild(msViewportStyle)
         }
+
+        function scrollToDownloadSection() {
+            const targetDiv = document.getElementById('downloadLinks');
+            targetDiv.scrollIntoView({ behavior: 'smooth' });
+        }
     </script>
     <!--=== Windows Phone JS Code End ===-->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -80,6 +85,9 @@
                                 <a class="nav-link" href="contact.html">CONTACT US</a>
                             </li>
                         </ul>
+                        <div class="h-download-app-button">
+                            <span class="btn btn-blue" onclick="scrollToDownloadSection();" role="button">Download app</span>
+                        </div>
                     </div>
                 </nav>
             </div>
@@ -230,7 +238,7 @@
                         <img src="images/unlock-football-mobile.png" alt="unlock-football-img" class="img-fluid lazy">
                     </div>
 
-                    <div class="unlock-football-content mx-auto">
+                    <div class="unlock-football-content mx-auto" id="downloadLinks">
                         <div class="section-title  mx-auto">
                             <h2>Be part of this important <span class="title-with-border"> mission</span> </h2>
                         </div>
@@ -241,8 +249,8 @@
                         </div>
 
                         <div class="common-app-buttons ultimate-specifically-buttons">
-                            <a href="https://apps.apple.com/nl/app/matchday-pro/id6459884753" target="_blank"><img src="images/app-store.png" alt="app-store" class="img-fluid lazy"></a>
-                            <a href="https://play.google.com/store/apps/details?id=com.matchdaypro.app" target="_blank"><img src="images/google-play.png" alt="google-play" class="img-fluid lazy"></a>
+                            <a href="https://apps.apple.com/nl/app/matchday-pro/id6459884753" target="_blank"><img src="images/app-store.png" alt="app-store" class="img-app-store lazy"></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.matchdaypro.app" target="_blank"><img src="images/google-play.png" alt="google-play" class="img-google-play lazy"></a>
                         </div>
                     </div>
                 </div>
@@ -385,7 +393,7 @@
     </footer>
     <!-- footer end -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Bootstrap Bundle with Popper -->
     <script src="js/bootstrap.bundle.min.js"></script>

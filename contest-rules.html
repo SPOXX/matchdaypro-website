@@ -37,6 +37,11 @@
             )
             document.querySelector('head').appendChild(msViewportStyle)
         }
+
+        function scrollToDownloadSection() {
+            const targetDiv = document.getElementById('downloadLinks');
+            targetDiv.scrollIntoView({ behavior: 'smooth' });
+        }
     </script>
     <!--=== Windows Phone JS Code End ===-->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -49,7 +54,7 @@
 
 <body>
     <!-- header start -->
-    <header class="header header-typography">
+    <header class="header scrolled with-background-color">
         <div class="container">
             <div class="h-content">
                 <nav class="navbar navbar-expand-md">
@@ -80,6 +85,9 @@
                                 <a class="nav-link" href="contact.html">CONTACT US</a>
                             </li>
                         </ul>
+                        <div class="h-download-app-button">
+                            <span class="btn btn-blue" onclick="scrollToDownloadSection();" role="button">Download app</span>
+                        </div>
                     </div>
                 </nav>
             </div>
@@ -329,7 +337,7 @@
     </footer>
     <!-- footer end -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Bootstrap Bundle with Popper -->
     <script src="js/bootstrap.bundle.min.js"></script>

@@ -1,5 +1,15 @@
 // JavaScript Document
 $(document).ready(function () {
+	console.log('yes sir');
+
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 0) {
+			$('header.header').addClass('scrolled');
+		} else {
+			$('header.header').removeClass('scrolled');
+		}
+	});
+
 	/* navigation */
 	document.addEventListener('click', function (e) {
 		/* Hamburger menu */
@@ -120,11 +130,13 @@ $(document).ready(function () {
 	/* lazyload */
 
 	var list = document.getElementsByClassName("typography-block");
-	var items = list.getElementsByTagName("li");
+	if (list.length > 0) {
+		var items = list.getElementsByTagName("li");
 
-	for (var i = 0; i < items.length; i++) {
-		var itemNumber = i + 1;
-		items[i].textContent = itemNumber.toString().padStart(2, '0') + ". " + items[i].textContent;
+		for (var i = 0; i < items.length; i++) {
+			var itemNumber = i + 1;
+			items[i].textContent = itemNumber.toString().padStart(2, '0') + ". " + items[i].textContent;
+		}
 	}
 
 	/* OFI Browser */
