@@ -323,7 +323,10 @@ h3 { font-size: 30px; line-height: 40px; }
 .block-title { font-size: 25px; line-height: 33px; }
 .small-block-title { font-size: 22px; line-height: 30px; }
 p { margin-bottom: 15px; }
-.common-app-buttons a { margin: 0 7px; width: 135px; }
+.common-app-buttons {
+    text-align: left;
+    margin-left: 10px;
+}
 
 /* header */
 .header .container { max-width: 100%; }
