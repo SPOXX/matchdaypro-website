@@ -1,7 +1,5 @@
 // JavaScript Document
 $(document).ready(function () {
-	console.log('yes sir');
-
 	$(window).scroll(function () {
 		if ($(this).scrollTop() > 0) {
 			$('header.header').addClass('scrolled');
