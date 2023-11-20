@@ -325,11 +325,11 @@ h3 { font-size: 30px; line-height: 40px; }
 p { margin-bottom: 15px; }
 .common-app-buttons {
     text-align: left;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 .common-app-buttons a {
-    margin-right: 0;
+    margin-right: 0 !important;
 }
 
 .common-app-buttons img {
