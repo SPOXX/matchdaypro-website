@@ -328,6 +328,15 @@ p { margin-bottom: 15px; }
     margin-left: 10px;
 }
 
+.common-app-buttons a {
+    margin-right: 0;
+}
+
+.common-app-buttons img {
+    width: 160px;
+    height: 50px;
+}
+
 /* header */
 .header .container { max-width: 100%; }
 
